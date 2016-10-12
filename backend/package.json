@@ -1,0 +1,20 @@
+{
+  "name": "trabalho-pratico",
+  "version": "0.0.1",
+  "description": "Trabalho pratico de DAD, TecWeb e Teste de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "nodemon ./server.js"
+  },
+  "author": "Brayan Allanderson (brayanallanderson@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "nodemon": "^1.11.0"
+  }
+}
