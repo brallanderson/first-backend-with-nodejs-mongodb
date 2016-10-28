@@ -19,7 +19,19 @@ Access the project folder through command prompt.
 
 Use the command: npm install
 
-To start MongoDB, run mongod.exe. For example, from the command prompt: C:\mongodb\Server\3.2\bin\mongod.exe
+Exemple mongo db create directory: 
+
+Create a directory on c:\data\db
+
+You can specify an alternate path for data files using the --dbpath option to mongod.exe, for example:
+C:\MongoDB\Server\3.2\bin\mongod.exe --dbpath C:\db-first-backend
+
+In this example I use the way: C:\db-first-backend
+
+To start MongoDB, run mongod.exe. For example, from the command prompt: C:\Mongodb\Server\3.2\bin\mongod.exe
+
+To connect to MongoDB through the mongo.exe shell, open another Command Prompt.
+C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe
 
 This starts the process MongoDB main database. The wait for message connections in the console output indicates that the mongod.exe process is successful.
 
