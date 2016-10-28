@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/trabalho-pratico';
+var dbURI = 'mongodb://localhost/db-first-backend';
 
 mongoose.connect(dbURI);
 
